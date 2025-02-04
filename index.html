@@ -10,18 +10,50 @@
   <div class="dashboard">
     <!-- Sidebar -->
     <aside class="sidebar">
-      <h3 class="logo">Dashboard</h3>
+      <div class="logo">
+        <img class="svg" src="./icons/view-dashboard.svg" alt="" srcset="">
+        Dashboard
+      </div>
       <nav class="menu">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Messages</a></li>
-          <li><a href="#">History</a></li>
-          <li><a href="#">Tasks</a></li>
-          <li><a href="#">Communities</a></li>
-          <li><a href="#">Settings</a></li>
-          <li><a href="#">Support</a></li>
-          <li><a href="#">Privacy</a></li>
+          <li><a href="#">
+            <img class="svg" src="./icons/home.svg" alt="" srcset="">
+            Home
+          </a></li>
+          <li><a href="#">
+            <img class="svg" src="./icons/card-account-details-outline.svg" alt="" srcset="">
+            Profile
+          </a></li>
+          <li><a href="#">
+            <img class="svg" src="./icons/message.svg" alt="" srcset="">
+            Messages
+          </a></li>
+          <li><a href="#">
+            <img class="svg" src="./icons/history.svg" alt="" srcset="">
+            History
+          </a></li>
+          <li><a href="#">
+            <img class="svg" src="./icons/file-document-multiple.svg" alt="" srcset="">
+            Tasks
+          </a></li>
+          <li><a href="#">
+            <img class="svg" src="./icons/account-group.svg" alt="" srcset="">
+            Communities
+          </a></li>
+          <div class="systemSidebar">
+            <li><a href="#">
+              <img class="svg" src="./icons/cog.svg" alt="" srcset="">
+              Settings
+            </a></li>
+            <li><a href="#">
+              <img class="svg" src="./icons/help-box.svg" alt="" srcset="">
+              Support
+            </a></li>
+            <li><a href="#">
+              <img class="svg" src="./icons/shield-check.svg" alt="" srcset="">
+              Privacy
+            </a></li>
+          </div>
         </ul>
       </nav>
     </aside>
@@ -29,15 +61,19 @@
     <!-- Header -->
     <header class="header">
       <div class="searchbar">
-        <button class="searchbtn">Search</button>
-        <input type="text">
-        <button class="notificationbtn"></button>
-        <img src="profile-pic.png" alt="profile picture">
+        <div class="sbLeft">
+          <button class="searchbtn"><img class='svg' src="./icons/magnify.svg" alt="" srcset=""></button>
+          <input type="text">
+        </div>
+        <div class="sbRight">
+          <button class="notificationbtn"><img class="svg" src="./icons/bell-ring.svg" alt="" srcset=""></button>
+        <img src="./images/fox-5679446_640.png" alt="profile picture">
         <h4>Morgan oakley</h4>
+        </div>
       </div>
       <div class="navFooter">
         <div class="welcome">
-          <img src="profile-pic.png" alt="Profile Picture" />
+          <img src="./images/fox-5679446_640.png" alt="Profile Picture" />
           <div class="greetings">
             <p>Hi there, <strong>Morgan Oakley (@morgan)</strong></p>
           </div>
@@ -60,32 +96,56 @@
           <div class="project-card pc1">
             <h4>Super Cool Project</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas unde aliquid sequi nobis reiciendis ea tempora error doloribus nesciunt fugit?</p>
-            <div class="card-actions">⭐ 👁️ 🌱</div>
+            <div class="card-actions">
+              <img src="./icons/star-plus-outline.svg" alt="">
+              <img src="./icons/eye-plus-outline.svg" alt="">
+              <img src="./icons/source-fork.svg" alt="">
+            </div>
           </div>
           <div class="project-card pc2">
             <h4>Less Cool Project</h4>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio iure animi natus quasi nobis aliquid!</p>
-            <div class="card-actions">⭐ 👁️ 🌱</div>
+            <div class="card-actions">
+              <img src="./icons/star-plus-outline.svg" alt="">
+              <img src="./icons/eye-plus-outline.svg" alt="">
+              <img src="./icons/source-fork.svg" alt="">
+            </div>
           </div>
           <div class="project-card pc3">
             <h4>Impossible App</h4>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga iure possimus commodi odit error tenetur voluptatibus quas eum, unde minima?</p>
-            <div class="card-actions">⭐ 👁️ 🌱</div>
+            <div class="card-actions">
+              <img src="./icons/star-plus-outline.svg" alt="">
+              <img src="./icons/eye-plus-outline.svg" alt="">
+              <img src="./icons/source-fork.svg" alt="">
+            </div>
           </div>
           <div class="project-card pc4">
             <h4>Easy Peasy App</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus perspiciatis dicta, perferendis ipsum quos consequuntur! Odio, enim? Quaerat, repudiandae quos dolore omnis, nisi commodi itaque nesciunt, debitis aspernatur quisquam vero!</p>
-            <div class="card-actions pc5">⭐ 👁️ 🌱</div>
+            <div class="card-actions">
+              <img src="./icons/star-plus-outline.svg" alt="">
+              <img src="./icons/eye-plus-outline.svg" alt="">
+              <img src="./icons/source-fork.svg" alt="">
+            </div>
           </div>
           <div class="project-card pc5">
             <h4>Ad Blocker</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptates similique architecto accusantium, dolorum reiciendis.</p>
-            <div class="card-actions">⭐ 👁️ 🌱</div>
+            <div class="card-actions">
+              <img src="./icons/star-plus-outline.svg" alt="">
+              <img src="./icons/eye-plus-outline.svg" alt="">
+              <img src="./icons/source-fork.svg" alt="">
+            </div>
           </div>
           <div class="project-card pc6">
             <h4>Money Maker</h4>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet incidunt magni maxime veritatis accusamus voluptas qui commodi animi vero at?</p>
-            <div class="card-actions">⭐ 👁️ 🌱</div>
+            <div class="card-actions">
+              <img src="./icons/star-plus-outline.svg" alt="">
+              <img src="./icons/eye-plus-outline.svg" alt="">
+              <img src="./icons/source-fork.svg" alt="">
+            </div>
           </div>
         </div>
       </section>
@@ -98,7 +158,7 @@
         <div class='announcementContent'>
           <div class="announcement">
             <h4>Site Maintenance</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quia inventore aspernatur ipsum!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quia inventore aspernatur</p>
           </div>
           <hr>
           <div class="announcement">
@@ -110,9 +170,7 @@
             <h4>Updated Privacy Policy</h4>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore debitis cumque non alias ratione nisi.</p>
           </div>
-        </div>
-
-        
+        </div> 
       </section>
 
       <section class="trending">
@@ -120,21 +178,21 @@
 
         <div class="trendContent">
           <div class="trend">
-            <img src="avatar-tegan.png" alt="Tegan" />
+            <img src="./images/download (1).jpeg" alt="Tegan" />
               <p><span>@tegan</span> World Peace Builder</p> 
           </div>
           <div class="trend">
-            <img src="avatar-morgan.png" alt="Morgan" />
-            <p><span>/span> Super Cool Project</p>
+            <img src="./images/download (2).jpeg" alt="Morgan" />
+            <p><span>@Morgan</span> Cool Project</p>
           </div>
           <div class="trend">
-            <img src="avatar-kendall.png" alt="Kendall" />
-            <p><strong>@kendall</strong>Life Changing App</p>
+            <img src="./images/download.jpeg" alt="Kendall" />
+            <p><span>@kendall</span>Life Changing App</p>
           </div>
-          <div class="trend">
-            <img src="avatar-alex.png" alt="Alex" />
-            <p><strong>@alex</strong>No Traffic Maker</p>
-          </div>
+          <!-- <div class="trend">
+            <img src="./images/groundhog-8557142_640.png" alt="Alex" />
+            <p><span>@alex</span>No Traffic Maker</p>
+          </div> -->
         </div>
         
       </section>
